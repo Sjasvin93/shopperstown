@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //connect to the ecommerce shoppers town database
-mongoose.connect('mongodb://localhost/shoppers_town_db');
+mongoose.connect('mongodb+srv://sjasvin9493:5yds7PgLvhP5pT3w@cluster0.un1pw.mongodb.net/shoppers_town_db?retryWrites=true&w=majority');
 
 //acquire the connection to check if its successful or not
 const db = mongoose.connection;

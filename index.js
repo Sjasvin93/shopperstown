@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 //setting the port number
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 //including the express ejs layout library
 const expressLayouts = require('express-ejs-layouts');
