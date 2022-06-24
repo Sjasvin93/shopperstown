@@ -1,0 +1,51 @@
+#signin_form_container{
+    height: 350px;
+    width: 25%;
+    margin-left: 38%;
+    background-image: linear-gradient(to left bottom, #154a99, #0a3d92, #052f8b, #082182, #0f0f78);
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#login_email, #login_password{
+    margin-left: 9%;
+    background: none;
+    height: 40px;
+    width: 80%;
+    border: none;
+    border-bottom: solid 1px white;
+    color: white;
+    margin-top: 30px;
+}
+
+#login_user_details{
+    background-color: white;
+    color: rgb(8, 6, 6);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    margin-top: 40px;
+    margin-left: 35%;
+    border-radius: 20px;
+    border: none;
+}
+
+#login_user_details:hover{
+    background-color: rgb(80, 80, 141);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#user_signup{
+    color: white;
+    margin-left: 20%;
+    margin-top: 35px;
+}
+
+#user_signup a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}

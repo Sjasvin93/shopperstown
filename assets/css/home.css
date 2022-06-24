@@ -4,3 +4,30 @@
     width: 1350px;
     background-repeat:no-repeat;
 }
+
+#service_box_container{
+    width: 80%;
+    height: 300px;
+    padding: 20px;
+    margin-left: 10%;
+}
+
+#scroller{
+    display: flex;
+    justify-content: space-between;
+}
+
+#product_demo{
+    height: 270px;
+    width: 220px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: inset;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: rgb(230, 232, 235);
+}
+
+#product_demo p{
+    text-align: justify;
+    padding: 5px;
+}
